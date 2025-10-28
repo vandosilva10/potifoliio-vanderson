@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-secundaria: "Krona One", sans-serif;
+    --cor-principal: #22D4FD;
+    --cor-secundaria: #f6f6f6; 
+    --cor-fundo: #000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+}
+
+.c1{
+    
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2.6rem;
+    margin-top: 2.6875rem;
+    margin-right: 65.625rem;
+    margin-left: 22.625rem;  
+    
+}
+.c1-2{
+    display: flex;
+    gap: 8.125rem;
+}
+.a1{
+    font-family: var(--fonte-principal);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+.a2{
+    font-family: var(--fonte-principal);
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--cor-principal);
+    text-decoration: none;
+
+}
+.main1{
+    margin: 11.1875rem 0rem 0rem 22.3125rem;
+    display: flex;
+}
+.s1{
+    max-width: 37.0625rem;
+}
+.hh1{
+    font-family: var(--fonte-secundaria);
+    font-size: 2.25;
+    color: var(--cor-secundaria);
+    margin-bottom: 2rem;
+}
+.span1{
+    color: var(--cor-principal);
+}
+.hh2{
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    color: var(--cor-secundaria);
+    margin-bottom: 32px;
+    line-height: 30px;
+}
+.hh3{
+    display: flex;
+    margin-bottom: 32px;
+    gap: 50px;
+}
+.a3, .a4{
+    background-color: var(--cor-principal);
+    padding: 23px 21.5px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
+.img1{
+    margin-left: 80px;
+    height: 466px;
+}
+
+.f1{
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 16.5rem;
+    height: 100px;
+}
+.p-1{
+    color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 36px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1200px){
+    .c1{
+        margin-right: 2rem;
+        font-size: 2rem;
+    }
+    .c1-2{
+        gap: 4rem;
+    }
+    .a1, .a2{
+        font-size: 2rem;
+    }
+    .main1{
+        flex-direction: column;
+        margin: 5rem 2rem 0rem 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .s1{
+        max-width: 100%;
+    }
+    .hh1{
+        font-size: 2rem;
+    }
+    .hh2{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .hh3{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .a3, .a4{
+        font-size: 20px;
+        padding: 15px 10px;
+    }
+    .img1{
+        margin-left: 0px;
+        margin-top: 3rem;
+        height: auto;
+        width: 100%;
+    }
+}    
